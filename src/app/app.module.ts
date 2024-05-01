@@ -4,15 +4,21 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NgApexchartsModule } from 'ng-apexcharts';
+import { DashboardComponent } from './components/dashboard/dashboard.component';
+import { PieChartComponent } from './components/dashboard/pie-chart/pie-chart.component';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DashboardComponent,
+    PieChartComponent,
+    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgApexchartsModule
+    NgApexchartsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
