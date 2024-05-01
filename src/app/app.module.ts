@@ -7,6 +7,7 @@ import { NgApexchartsModule } from 'ng-apexcharts';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { PieChartComponent } from './components/dashboard/pie-chart/pie-chart.component';
 import { BubbleChartComponent } from './components/dashboard/bubble-chart/bubble-chart.component';
+import { BarChartComponent } from './components/dashboard/bar-chart/bar-chart.component';
 
 
 @NgModule({
@@ -15,6 +16,7 @@ import { BubbleChartComponent } from './components/dashboard/bubble-chart/bubble
     DashboardComponent,
     PieChartComponent,
     BubbleChartComponent,
+    BarChartComponent,
     
   ],
   imports: [
