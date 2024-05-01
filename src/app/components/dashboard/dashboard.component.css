@@ -1,3 +1,5 @@
 .card {
     min-height: 340px;
+    border-radius: 20px; /* Adjust the value as needed */
+    border-color: white;
 }

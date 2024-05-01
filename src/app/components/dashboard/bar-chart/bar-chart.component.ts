@@ -3,7 +3,6 @@ import {
   ApexChart,
   ApexAxisChartSeries,
   ChartComponent,
-  anyApexDataLabels,
   ApexPlotOptions,
   ApexYAxis,
   ApexLegend,

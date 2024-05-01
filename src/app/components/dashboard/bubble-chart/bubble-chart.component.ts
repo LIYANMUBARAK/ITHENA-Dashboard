@@ -5,7 +5,6 @@ import {
   ApexChart,
   ApexFill,
   ApexXAxis,
-  anyApexDataLabels,
   ApexYAxis,
   ApexTitleSubtitle
 } from "ng-apexcharts";
